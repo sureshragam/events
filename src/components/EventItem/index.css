@@ -1,0 +1,26 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  width: 45%;
+  height: 350px;
+  margin-bottom: 30px;
+}
+li > button {
+  width: 100%;
+  padding: 0;
+  background-color: transparent;
+  border-style: none;
+  outline-color: #2dd4bf;
+  cursor: pointer;
+}
+button > img {
+  width: 100%;
+}
+li > .name {
+  font-size: 30px;
+  margin-bottom: 2px;
+}
+li > p {
+  margin-top: 0;
+  text-align: left;
+}

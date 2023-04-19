@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.Events-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.col-1 {
+  padding: 30px;
+  flex-basis: 70%;
+  background-color: #3a4b63;
+}
+.col-1 > h1 {
+  color: white;
+  font-size: 50px;
+  margin-top: 0;
+}
+.col-2 {
+  padding: 20px;
+  flex-basis: 29%;
+  margin: 5px;
+  height: 100%;
+  min-height: 100vh;
+  margin-top: 50px;
+}
+.col-2-para {
+  text-align: center;
+  padding: 10px;
+  color: #64748b;
+}
+ul {
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: white;
+}
+.col-2 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.col-2 > div > img {
+  width: 50%;
+}
+.col-2 > div > button {
+  background-color: #0967d2;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  width: 80%;
+  outline: none;
+  border-style: none;
+}
+.col-2 > div > h1,
+p {
+  text-align: center;
+}
